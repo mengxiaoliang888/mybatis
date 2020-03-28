@@ -58,7 +58,7 @@ public class TestMybatis {
     private static void listAll(SqlSession session) {
         List<Category> cs = session.selectList("listCategory");
         for (Category c : cs) {
-            System.out.println(c.getName());
+            System.out.println(c.getName()+"--mengzi");
         }
     }
 }
